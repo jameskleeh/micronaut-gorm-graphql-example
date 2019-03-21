@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: test.gorm.graphql
+---
+testFramework: spock
+sourceLanguage: groovy
