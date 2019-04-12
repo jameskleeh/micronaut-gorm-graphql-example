@@ -19,7 +19,7 @@ repositories {
 
 dependencyManagement {
     imports {
-        mavenBom 'io.micronaut:micronaut-bom:1.1.0.RC1'
+        mavenBom 'io.micronaut:micronaut-bom:1.1.0'
     }
 }
 
@@ -36,8 +36,8 @@ dependencies {
     compile "io.micronaut:micronaut-http-client"
     compile "io.micronaut:micronaut-http-server-netty"
     
-    compile "io.micronaut.graphql:micronaut-graphql:1.0.0.RC1"
-    compile "io.micronaut.graphql:micronaut-graphql-gorm:1.1.0.BUILD-SNAPSHOT"
+    compile "io.micronaut.graphql:micronaut-graphql:1.0.0"
+    compile "io.micronaut.graphql:micronaut-graphql-gorm:1.1.0"
     
     compileOnly "io.micronaut:micronaut-inject-groovy"
     runtime "ch.qos.logback:logback-classic:1.2.3"
